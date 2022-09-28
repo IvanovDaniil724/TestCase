@@ -1,0 +1,4 @@
+services:                                                                                                                                                                                   
+  appserver:                                                                                                                                                                                  
+    build_as_root:                                                                                                                                                                            
+      - apt update && apt install libgmp10 -y && docker-php-ext-install gmp
